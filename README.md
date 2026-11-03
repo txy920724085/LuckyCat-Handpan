@@ -228,3 +228,8 @@ Handpan_HDMI_Visual/
 本目录尚未为全部自有源码指定统一开源许可证，不能据此默认按 MIT、Apache-2.0 等许可证使用或再分发。
 
 TMDS 编码器来自 Clifford Wolf 的 Simple Video Out，相关原始版权及许可保留在源码中；Gowin 生成 IP 遵循相应厂商条款。详情见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。Android 节拍器素材来源及许可见 [第三方许可与素材来源](app/03_文档/第三方许可与素材来源.md)。
+
+
+## Android 跟练应用
+
+app目录提供手碟跟练APP的安装包、Java源码、构建说明、示例曲谱及使用文档。详见[APP说明](app/00_提交说明.md)。公开源码及源码ZIP均排除签名私钥，构建时在本地生成开发测试证书。原有FPGA源码、ROM与固件保持不变。

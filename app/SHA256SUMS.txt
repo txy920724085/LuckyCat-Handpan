@@ -1,0 +1,2 @@
+91a4a6bead204cad08222df36d99fd0c1790ca395142cb75b0b7e283bdc89c6b  01_安装包/HandpanPractice-v0.9.apk
+142737ed250a4481ada431128783eae479bd656ef1ee7675e803f6b7751b537c  02_源码/HandpanPractice-v0.9-source.zip

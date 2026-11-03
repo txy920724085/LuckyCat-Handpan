@@ -1,0 +1,16 @@
+{
+  "setup_violations": 0,
+  "hold_violations": 0,
+  "setup_worst_ns": 0.0,
+  "hold_worst_ns": 0.183,
+  "recovery_worst_ns": 2.371,
+  "removal_worst_ns": 0.102,
+  "pulse_width_worst_ns": 6.553,
+  "logic_usage": "50508/138240",
+  "register_usage": "46719/139140",
+  "bsram_usage": "131/340",
+  "dsp_usage": "69/298",
+  "font_logic_preserved": true,
+  "pin_constraints_checked": 28,
+  "note": "Reference results from original full implementation; source release cleanup is not a new implementation signoff."
+}

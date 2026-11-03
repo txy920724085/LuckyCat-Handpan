@@ -1,0 +1,36 @@
+`ifndef HANDPAN_TIMBRE_PARAMS_VH
+`define HANDPAN_TIMBRE_PARAMS_VH
+
+// Compile-time Bell/Handpan modal presets.
+// Ratios are unsigned Q4.12; amplitudes are unsigned Q1.15.
+// Modal decay is a Q8.8 envelope decrement per audio sample.
+`define PRESET_LEGACY_BELL 0
+`define PRESET_HANDPAN_4OSC 1
+
+`define LEGACY_RATIO0_Q12 16'd4096
+`define LEGACY_RATIO1_Q12 16'd8192
+`define LEGACY_RATIO2_Q12 16'd12288
+`define LEGACY_RATIO3_Q12 16'd16384
+`define LEGACY_AMP0_Q15 16'd16384
+`define LEGACY_AMP1_Q15 16'd8192
+`define LEGACY_AMP2_Q15 16'd4096
+`define LEGACY_AMP3_Q15 16'd0
+`define LEGACY_DECAY0_Q8 16'd256
+`define LEGACY_DECAY1_Q8 16'd768
+`define LEGACY_DECAY2_Q8 16'd1536
+`define LEGACY_DECAY3_Q8 16'd1536
+
+`define HANDPAN_RATIO0_Q12 16'd4096
+`define HANDPAN_RATIO1_Q12 16'd8192
+`define HANDPAN_RATIO2_Q12 16'd12329
+`define HANDPAN_RATIO3_Q12 16'd18104
+`define HANDPAN_AMP0_Q15 16'd32768
+`define HANDPAN_AMP1_Q15 16'd14746
+`define HANDPAN_AMP2_Q15 16'd7209
+`define HANDPAN_AMP3_Q15 16'd3277
+`define HANDPAN_DECAY0_Q8 16'd38
+`define HANDPAN_DECAY1_Q8 16'd72
+`define HANDPAN_DECAY2_Q8 16'd132
+`define HANDPAN_DECAY3_Q8 16'd245
+
+`endif

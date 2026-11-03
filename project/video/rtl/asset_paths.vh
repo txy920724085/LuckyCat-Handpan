@@ -1,0 +1,6 @@
+`define PAN_ROM_FILE "../../video/assets/handpan.hex"
+`define UI_ROM_FILE "../../video/assets/ui_bytes.hex"
+`define HANN_ROM_FILE "../../video/assets/hann1024.hex"
+`define TW_RE_FILE "../../video/assets/twiddle_re.hex"
+`define TW_IM_FILE "../../video/assets/twiddle_im.hex"
+`define BAND_END_FILE "../../video/assets/band_ends.hex"
