@@ -1,0 +1,7 @@
+* text=auto
+*.fs binary
+*.png binary
+*.hex text eol=lf
+*.vh text eol=lf
+*.tcl text eol=lf
+*.bat text eol=crlf
